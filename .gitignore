@@ -1,0 +1,33 @@
+
+# data files - dont include patient data
+data/raw/
+data/processed/
+*.csv
+
+
+# saved models
+
+models/
+*.pkl
+
+# jupyter
+
+.ipynb_checkpoints/
+
+
+# python
+
+__pycache__/
+*.pyc
+
+
+# virtual envs
+
+venv/
+.venv/
+
+
+# os files
+
+.DS_Store
+Thumbs.db
